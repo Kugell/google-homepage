@@ -15,7 +15,7 @@
 						<a href="https://accounts.google.com/ServiceLogin?hl=en&continue=https://www.google.com/?gws_rd=ssl" id="Sign_in">Sign in</a>
 					</li>
 					<li>
-						<a href="#"><img src="apps.png"/></a>
+						<a href="#" id="apps"><img src="apps.png"/></a>
 					</li>
 					<li>
 						<a href="https://www.google.com/imghp?hl=en&ei=yzEzVs-SIYrUmAHj3I_ACA&ved=0CAIQqi4oAQ">Images</a>
@@ -34,14 +34,14 @@
 			</div>
 
 			<div class="search_input">
-					<input class="search_field" type="text" height="30">
+				<form method="get" action="http://www.google.com/search"> <input class="search_field" type="text" name="q" maxlength="255" value="" /> 
 
 			</div>
 
 			
 			<div class="search_buttons">
 					<ul>
-						<li>Google Search</li>
+						<li><input type="submit" value="Google Search" /></li>
 						<li>I'm Feeling Lucky</li>
 					</ul>
 			

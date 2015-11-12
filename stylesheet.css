@@ -86,10 +86,39 @@ a {
 	margin: 2.5px;
 	text-align: center;
 	background-color: rgb(245, 245, 245);
+	border: none;
+}
+
+
+input[type=submit] {
+	position: relative;
+	display: inline;
+	font-size: medium;
+	font-family: arial;
+	color: rgb(100, 100,100);
+	padding: 10px;
+	font-style: bold;
+	margin: 2.5px;
+	text-align: center;
+	background-color: rgb(245, 245, 245);
+	border: none;
+}
+
+input[type=submit]:hover {
+	color: black;
+}
+
+
+a:hover {
+	text-decoration: underline;
+}
+
+#apps {
+	cursor: default;
 }
 
 #Sign_in {
-	
+	text-decoration: none;
 	display: inline;
 	font-size: small;
 	font-family: sans-serif;
@@ -100,6 +129,7 @@ a {
 	text-align: center;
 	background-color: rgb(90, 122,250);
 	border-radius: 3px;
+	cursor: default;
 
 }
 
