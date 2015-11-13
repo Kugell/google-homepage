@@ -37,8 +37,8 @@ a {
 	color: #666;
 	text-decoration: none;
 	font-size: small;
-	font-family: Arial;
-	padding: 5px 10px 5px 10px;
+	font-family: arial, sans-serif;
+	padding: 5px 10px; 
 	display: inline;
 }
 
@@ -54,7 +54,7 @@ a {
 	top: 25px;
 	right: -5px;
 	height:37px;
-	width: 480px;
+	width: 590px; /*480px;*/
 }
 
 
@@ -75,37 +75,28 @@ a {
 
 
 .search_buttons ul li {
+	top: 50px;
 	position: relative;
-	top: 70px;
-	display: inline;
-	font-size: medium;
-	font-family: arial;
-	color: rgb(100, 100,100);
-	padding: 10px;
-	font-style: bold;
-	margin: 2.5px;
-	text-align: center;
-	background-color: rgb(245, 245, 245);
-	border: none;
+	display: inline; 
 }
 
-
-input[type=submit] {
-	position: relative;
-	display: inline;
-	font-size: medium;
-	font-family: arial;
+input[type=submit] { 
+	font-size: 13px; 
+	font-family: arial, sans-serif;
 	color: rgb(100, 100,100);
-	padding: 10px;
-	font-style: bold;
-	margin: 2.5px;
+	border: 1px solid rgb(100,100,100);
+	padding: 10px 16px;
+	font-weight: bold;
+	margin: 2.5px; 
 	text-align: center;
 	background-color: rgb(245, 245, 245);
 	border: none;
+	border-radius: 2px;
 }
 
 input[type=submit]:hover {
-	color: black;
+	color: rgb(50, 50, 50);
+	border: 1px solid rgb(181, 181, 181);
 }
 
 
@@ -124,11 +115,11 @@ a:hover {
 	font-family: sans-serif;
 	font-weight: bold;
 	color: white;
-	padding: 7px 14px 7px 14px;
+	padding: 7px 13px; 
 	margin-left: 10px;
 	text-align: center;
 	background-color: rgb(90, 122,250);
-	border-radius: 3px;
+	border-radius: 2px;
 	cursor: default;
 
 }
@@ -136,10 +127,10 @@ a:hover {
 
 #footer {
 	position:absolute;
-   bottom:0;
-   width:100%;
-   height:40px;   /* Height of the footer */
-   background:rgb(245, 245, 245);
+	bottom:0;
+   	width:100%;
+   	height:40px;   /* Height of the footer */
+   	background:rgb(245, 245, 245);
 
  }
    
