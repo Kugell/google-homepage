@@ -1,0 +1,21 @@
+#logo img {
+	top: 15px;
+	left: 15px;
+	position: relative;
+}
+
+
+
+.search-field {
+	position: relative;
+	top: -25px;
+	left: 125px;
+	height:37px;
+	width: 590px; 
+	font-family: arial, sans-serif;
+	font-size: 12pt;
+	text-indent: 9px;
+	border:1px solid rgb(210, 210, 210);
+}
+
+
