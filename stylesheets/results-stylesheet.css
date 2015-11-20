@@ -1,9 +1,10 @@
+
+
 #logo img {
 	top: 15px;
 	left: 15px;
 	position: relative;
 }
-
 
 
 .search-field {
@@ -25,4 +26,87 @@ header {
 	width: 100%;
 	background:rgb(240, 240, 240);
 	height: 60px;
+}
+
+
+input[type=image] {
+	position: relative;
+	top: -66px;
+	left: 719px;
+	color: super white;
+	cursor: default;
+	background-color: rgb(90, 122, 250);
+	padding:11px ;
+	-moz-border-radius-topright: 2px;
+	border-top-right-radius: 2px;
+	-moz-border-radius-bottomright: 2px;
+	border-bottom-right-radius: 2px;
+}
+
+
+#Sign-in {
+	text-decoration: none;
+	font-size: small;
+	font-family: arial, sans-serif;
+	font-weight: bold;
+	color: white;
+	padding: 9px 13px; 
+	margin-left: 10px;
+	text-align: center;
+	background-color: rgb(90, 122,250);
+	border-radius: 2px;
+	cursor: default;
+}
+
+
+#apps {
+	cursor: default;
+	margin-top: 7px;
+	margin-right: 12px;
+}
+
+
+#header-links a {
+	position: relative;
+	top: -104px;
+	left: -45px;
+	float: right;
+}
+
+
+ul {
+     list-style-type: none;
+} 
+
+
+li {
+	display: inline;
+}
+
+.nav {
+	position: relative;
+	bottom: 15px;
+	border-bottom: 1px solid rgb(240, 240, 240);
+}
+
+.nav a {
+	position: relative;
+	left: 125px;
+	bottom: 24px;
+	font-family: arial, sans-serif;
+	font-size: small;
+	margin-right: 12px;
+	text-decoration: none;
+	color: rgb(100, 100,100);
+	padding: 22px 9px;
+}
+
+#Web {
+	font-weight: bold;
+	color: rgb(90, 122,250);
+	border-bottom: 3px solid rgb(90,122,250);
+}
+
+
+	
 }
